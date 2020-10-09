@@ -33,7 +33,7 @@ firstParagraph.append(phrase1);
 
 // 4 & 5 Into the second paragraph tag, return the 3rd character in your first name
 
-var thirdCharacter = myFullName.charAt(2);
+var thirdCharacter = myFullName.charAt(2).toUpperCase();
 secondParagraph.append(" This is the third letter of my name: " + thirdCharacter+".");
 
 // 6 Add a new line to your second paragraph
